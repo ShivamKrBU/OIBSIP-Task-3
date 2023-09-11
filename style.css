@@ -1,0 +1,99 @@
+html {
+  font-size: 15px;
+}
+header{
+  background-color: #f5f5f5;
+  padding: 8px 0px 8px 60px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  color: rgb(42, 42, 42);
+}
+.fa-home {
+padding-top: 4px;
+padding-right: 8px;
+color: rgb(42, 42, 42);
+}
+
+body {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right bottom,
+      from(#cf472c),
+      to(rgb(15, 116, 89))
+    )
+    fixed;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.card {
+  background-color: #fff;
+}
+.card-body,
+ul {
+  background-color: rgb(246, 243, 255);
+  min-height: 0px;
+}
+.form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.list-item {
+  color: rgb(101, 101, 255);
+}
+.list-group-item {
+  background-color: inherit;
+  border: none;
+}
+.under-list-item {
+  font-size: 0.9rem;
+}
+.under-list-item .list-group-item {
+  color: rgb(78, 78, 78);
+}
+
+.under-list-input input {
+  height: calc(1em + 0.75rem);
+}
+
+.line-throught {
+  text-decoration: line-through;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .container,
+  .row {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .btn-outline-danger {
+    font-size: 0.9rem;
+  }
+  footer {
+    position: relative;
+    margin-top: 420px;
+  }
+}
+@media (max-width: 400px) {
+  #dellAll {
+    font-size: 0.7rem;
+  }
+}
